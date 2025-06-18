@@ -1,6 +1,6 @@
 resources:
-- deployment.yaml
-- service.yaml
+  - deployment.yaml
+  - service.yaml
 
 commonLabels:
   app: kustomwebapp
@@ -8,8 +8,5 @@ commonLabels:
 commonAnnotations:
   app: mykustom-annontations
 
-namePrefix:
-  kustom-
-
-nameSuffix:
-  -v1
+namePrefix: kustom-
+nameSuffix: -v1
