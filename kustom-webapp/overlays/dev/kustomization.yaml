@@ -1,5 +1,5 @@
 resources:
-  - kustom-webapp/base
+  - ../base
 
 namePrefix: dev-
 nameSuffix: -v1
