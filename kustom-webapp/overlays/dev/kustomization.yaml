@@ -1,8 +1,8 @@
 resources:
-  - ../../base
+  - kustom-webapp/base
 
 namePrefix: dev-
 nameSuffix: -v1
 
-patchesStrategicMerge:
-  - deployment-patch.yaml
+patches:
+  - path: deployment-patch.yaml
