@@ -7,9 +7,3 @@ commonLabels:
 
 commonAnnotations:
   app: mykustom-annontations
-
-namePrefix:
-  kustom-
-
-nameSuffix:
-  -v1
