@@ -1,8 +1,15 @@
 resources:
-  - ../../base
+- deployment.yaml
+- service.yaml
 
-namePrefix: dev-
-nameSuffix: -v1
+commonLabels:
+  app: kustomwebapp
 
-patchesStrategicMerge:
-  - deployment-patch.yaml
+commonAnnotations:
+  app: mykustom-annontations
+
+namePrefix:
+  kustom-
+
+nameSuffix:
+  -v1
